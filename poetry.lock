@@ -192,7 +192,11 @@ python-versions = ">=2"
 lock-version = "1.1"
 python-versions = "^3.9"
 <<<<<<< HEAD
+<<<<<<< HEAD
 content-hash = "0368319ab1c65dd1c0561f0309ffa61403c5183c238843779058a880c6cd91a5"
+=======
+content-hash = "1ab8580318404e59fcda2647c9c021d3d8570ad12ff4ad6f82bdeac55276ec41"
+>>>>>>> 51ad33b (solving lab31)
 =======
 content-hash = "1ab8580318404e59fcda2647c9c021d3d8570ad12ff4ad6f82bdeac55276ec41"
 >>>>>>> 51ad33b (solving lab31)
@@ -221,10 +225,13 @@ django = [
 djangorestframework = [
     {file = "djangorestframework-3.13.0-py3-none-any.whl", hash = "sha256:48e64f08244fa0df9e2b8fbd405edec263d8e1251112a06d0073b546b7c86b9c"},
     {file = "djangorestframework-3.13.0.tar.gz", hash = "sha256:8b987d5683f5b3553dd946d4972048d3117fc526cb0bc01a3f021e81af53f39e"},
+<<<<<<< HEAD
 ]
 djangorestframework = [
     {file = "djangorestframework-3.12.4-py3-none-any.whl", hash = "sha256:6d1d59f623a5ad0509fe0d6bfe93cbdfe17b8116ebc8eda86d45f6e16e819aaf"},
     {file = "djangorestframework-3.12.4.tar.gz", hash = "sha256:f747949a8ddac876e879190df194b925c177cdeb725a099db1460872f7c0a7f2"},
+=======
+>>>>>>> 51ad33b (solving lab31)
 ]
 flake8 = [
     {file = "flake8-4.0.1-py2.py3-none-any.whl", hash = "sha256:479b1304f72536a55948cb40a32dce8bb0ffe3501e26eaf292c7e60eb5e0428d"},
