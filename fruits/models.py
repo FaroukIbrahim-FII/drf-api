@@ -6,7 +6,7 @@ class Fruit(models.Model):
     discription = models.TextField()
     updated = models.DateTimeField(auto_now = True, auto_now_add=False)
     timestamp = models.DateTimeField(auto_now = False, auto_now_add=True)
-    author = models.ForeignKey(get_user_model(), on_delete=models.CASCADE)
+    owner = models.ForeignKey(get_user_model(), on_delete=models.CASCADE)
     available = models.BooleanField(default = False)
 
     def __str__(self):
